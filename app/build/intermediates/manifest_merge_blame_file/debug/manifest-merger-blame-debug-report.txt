@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.elmenustask"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:8:5-29:19
+14        android:name="com.example.elmenustask.MainApplication"
+14-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:9:9-40
+15        android:allowBackup="true"
+15-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/adacc4bbdca3c037c01e5031782c646c/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:12:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:13:9-54
+21        android:supportsRtl="true"
+21-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:14:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.ElmenusTask" >
+23-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:15:9-49
+24        <activity
+24-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:16:9-19:40
+25            android:name="com.example.elmenustask.ui.recipedetails.activites.RecipeDetailsActivity"
+25-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:17:13-77
+26            android:exported="false"
+26-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:19:13-37
+27            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+27-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:18:13-78
+28        <activity
+28-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:20:9-28:20
+29            android:name="com.example.elmenustask.ui.recipes.activities.RecipesActivity"
+29-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:21:13-66
+30            android:exported="true" >
+30-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:22:13-36
+31            <intent-filter>
+31-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:23:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:24:17-69
+32-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:26:17-77
+34-->/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->[androidx.room:room-runtime:2.4.2] /Users/mahmoudtahermac/.gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+39            android:name="androidx.room.MultiInstanceInvalidationService"
+39-->[androidx.room:room-runtime:2.4.2] /Users/mahmoudtahermac/.gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+40            android:directBootAware="true"
+40-->[androidx.room:room-runtime:2.4.2] /Users/mahmoudtahermac/.gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+41            android:exported="false" />
+41-->[androidx.room:room-runtime:2.4.2] /Users/mahmoudtahermac/.gradle/caches/transforms-3/ea026cc092deeba5c0a77622813dd84b/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/914af07b2490dc878f01326ae2aa49a5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/914af07b2490dc878f01326ae2aa49a5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+45            android:authorities="com.example.elmenustask.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/914af07b2490dc878f01326ae2aa49a5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/914af07b2490dc878f01326ae2aa49a5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/914af07b2490dc878f01326ae2aa49a5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/914af07b2490dc878f01326ae2aa49a5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/914af07b2490dc878f01326ae2aa49a5/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/bf8d388157906b2f93596545fa1cdd75/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/bf8d388157906b2f93596545fa1cdd75/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mahmoudtahermac/.gradle/caches/transforms-3/bf8d388157906b2f93596545fa1cdd75/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>

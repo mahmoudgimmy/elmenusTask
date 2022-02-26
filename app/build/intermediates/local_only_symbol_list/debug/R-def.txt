@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id app_bar_layout
+id cl_tag
+id collapsing_toolbar
+id cv_item
+id iv_item_image
+id iv_recipe_image
+id iv_tag_image
+id pb_loading
+id rv_items
+id rv_tags
+id scroll
+id toolbar
+id tv_description
+id tv_item_name
+id tv_tag_name
+id view
+layout activity_main
+layout activity_recipe_details
+layout item_item
+layout item_tag
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string recipe_image
+string transaction_name
+style Theme.ElmenusTask

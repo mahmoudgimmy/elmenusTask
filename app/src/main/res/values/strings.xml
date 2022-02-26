@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Elmenus task</string>
+    <string name="transaction_name">transaction</string>
+    <string name="recipe_image">recipe_image</string>
+</resources>

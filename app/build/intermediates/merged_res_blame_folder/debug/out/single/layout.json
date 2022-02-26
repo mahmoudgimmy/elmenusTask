@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_recipe_details.xml",
+        "source": "/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/res/layout/activity_recipe_details.xml"
+    },
+    {
+        "merged": "/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_item.xml",
+        "source": "/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/res/layout/item_item.xml"
+    },
+    {
+        "merged": "/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_tag.xml",
+        "source": "/Users/mahmoudtahermac/StudioProjects/Elmenustask/app/src/main/res/layout/item_tag.xml"
+    }
+]
