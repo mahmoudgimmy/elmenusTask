@@ -1,5 +1,5 @@
 # elmenusTask
-## elmenus task is a simple app to review recipes
+## elmenus task is a simple app to review categoried recipes 
 
 - **Kotlin** as a language for writing logic for features.
 - **Retrofit** for handling network calls.
